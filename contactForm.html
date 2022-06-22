@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Contact us</h1>
+
+    <!-- va aparea mici patrate unde putem completa datele noastre ce cere -->
+    <fieldset>
+        <legend><span class="number">1</span>Your basic info</legend>
+        <label for="name">Name</label>
+        <input type="text " id="name" name=" user_name"><br><br><br>
+
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="user_email"><br><br><br>
+        <!-- <input type="color" id="mail" name="user_email"> -->
+
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone"><br><br><br>
+
+        <label>Contact me by</label>
+        <input type="radio" id="emai" value="email" name="email"><label for=" email" class="light">Email
+        </label>
+        <input type="radio" id="phone" name="phone"><label for="phone" class="light">Phone</label><br><br>
+
+
+
+
+        <label for="question">Question for</label>
+
+        <select id="question" name="question">
+            <!-- vor apare cu croll in jos unde pot alege option dorita -->
+            <optgroup label="Questions">
+                <option value="sales">Sales</option>
+                <option value="newmodels">New models</option>
+                <option value="promotions">Promotions</option>
+                <option value="guaratntee">Guarantee</option>
+                <option value="brokers">Brokers</option>
+
+
+            </optgroup><br><br><br>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+
+
+    </fieldset>
+
+
+    <br><br><br>
+
+    <label for="message">Message:</label>
+
+    <textarea id="message" rows="4" cols="50">
+    </textarea><br><br>
+    <button>Submit</button>
+
+    <li><a href="index.html">Home</a></li>
+
+</body>
+
+</html>
